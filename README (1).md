@@ -13,14 +13,14 @@ vector similarity for candidate retrieval and deterministic rules for final deci
 
 ```mermaid
 flowchart LR
-    A[Source System / Cirrus Core] --> B[MongoDB: membermatch.patients]
-    B --> C[Embedding Job (Voyage AI)]
+    A[Source System] --> B[(MongoDB)]
+    B --> C[Embedding Job - Voyage]
     C --> B
-    B --> D[Vector Retrieval<br/>$vectorSearch]
-    D --> E[Guardrails<br/>$match (group, DOB, etc.)]
-    E --> F[Decision Engine<br/>FOUR_OF_FOUR, etc.]
-    F --> G[Resolution UI]
-    F --> H[Metrics & Analytics]
+    B --> D[Vector Retrieval]
+    D --> E[Deterministic Guardrails]
+    E --> F[Decision Engine]
+    F --> G[User Resolution UI]
+    F --> H[Reporting and Metrics]
 ```
 
 ---
