@@ -1,4 +1,4 @@
-# Member Match + Vector Retrieval (Atlas Vector Search)
+# 👩🏼‍⚕️👨🏻Member Match + Vector Retrieval (Atlas Vector Search)
 
 This repo demonstrates a **safe, production-grade approach to member matching** using
 vector similarity for candidate retrieval and deterministic rules for final decisions.
