@@ -25,7 +25,7 @@ flowchart LR
 
 ---
 
-## Why this design is safe
+## This is the design we disussed - first pass 
 
 - Vector similarity **never performs merges**
 - It only determines *which records to compare*
