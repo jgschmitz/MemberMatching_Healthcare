@@ -1,4 +1,4 @@
-# 👩🏼‍⚕️👨🏻 Member Matching for Healthcare with MongoDB Atlas Search
+# 👩🏼‍⚕️👨🏻 Member Matching for Insurance with MongoDB Atlas Search
 
 This repo demonstrates a safe, production-oriented approach to healthcare member matching using **deterministic matching**, **lexical search**, and optional **vector retrieval for contextual enrichment**.
 
